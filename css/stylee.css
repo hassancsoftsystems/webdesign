@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lato:wght@300&family=Montserrat&family=Open+Sans:wght@300&family=Roboto&family=Source+Sans+Pro:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+/* services_1_ended */
+.ser_line{
+    background-color: brown;
+    justify-content: center;
+    height: 3px;
+    width: 3.7%;
+}
+.ser_head{
+    font-size: 27px;
+}
+.ser_text{
+    font-size: 19px;
+}
+.marg_sev_1{
+    margin-top: 25%;
+}
+.marg_sev_2{
+    margin-top: 35%;
+}
+@media only screen and (max-width:767px) {
+    .marg_sev_1{
+        margin-top: 9%;
+    }
+    .marg_sev_2{
+        margin-top: 9%;
+    }
+}
+.ser_btn{
+    background-color: #fff;
+    color: brown;
+    border: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+/* services_1_ended */
+/* services_2_started */
+.sev_input_name{
+    background-color: rgba(211, 211, 211, 0.274);
+    border: none;
+    border-bottom: 3px solid brown;
+    font-size: 13px;
+}
+.ser_btn-1 {
+    background-color: brown;
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+}
+.serv_2_bg_color{
+    background-color: brown;
+    border-radius: 25px;
+}
+.serv_2_bg_color_1{
+    background-color: purple;
+    border-radius: 25px;
+}
+/* services_2_ended */
