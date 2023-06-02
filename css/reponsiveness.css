@@ -1,0 +1,88 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .nav-pills {
+    justify-content: center;
+    gap: 0rem;
+    border-top: 1px solid #000;
+    font-size: 20px;
+  }
+  .get_started_sec_btn {
+    margin-top: 0rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1311px) {
+  .nav-pills {
+    justify-content: center;
+    gap: 1rem;
+    border-top: 1px solid #000;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .logosImgs img {
+    max-width: 125px;
+    max-height: 88px;
+    margin: 5px 8px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .get_started_sec_btn {
+    float: right;
+  }
+  .main-top-nav-sec {
+    display: flex;
+  }
+  .main-top-nav {
+    display: flex;
+  }
+}
+@media screen and (max-width: 560px) {
+  .logosImgs img {
+    max-width: 85px;
+    max-height: 60px;
+    margin: 3px 5px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .card-deck .card {
+    -ms-flex: 0 0 48.7%;
+    flex: 0 0 48.7%;
+  }
+}
+@media (min-width: 320px) and (max-width: 991px) {
+  .card-deck {
+    display: block !important;
+  }
+  .ceo_sec_about {
+    display: block;
+  }
+  .ceo_sec_about_1 img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .card-deck .card {
+    -ms-flex: 0 0 32%;
+    flex: 0 0 32%;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-deck .card {
+    -ms-flex: 0 0 24%;
+    flex: 0 0 24%;
+  }
+}
+@media (max-width: 991px) {
+  .inptFld {
+    height: 40px;
+    margin: 0 0 10px;
+    padding: 0 14px;
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .get_started_sec_btn {
+    float: right;
+  }
+}
